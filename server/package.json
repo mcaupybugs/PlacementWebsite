@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "build": "babel index.js -d dist",
+    "build": "babel index.ts -d dist",
     "start": "npm run build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,8 @@
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
     "eslint": "^8.42.0"
   }
 }
