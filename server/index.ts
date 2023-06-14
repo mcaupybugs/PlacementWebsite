@@ -6,7 +6,7 @@ const app: any = express();
 app.use("/experience", placementExperienceRouter);
 
 
-app.get("/", (req, res) => {
+app.get("/", (req: any, res: any) => {
     res.send("sample")
 })
 app.listen(3000, () => {
