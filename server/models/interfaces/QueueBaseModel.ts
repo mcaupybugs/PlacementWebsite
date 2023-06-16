@@ -1,0 +1,3 @@
+interface QueueBaseModel {
+    operation: QueueOperationType
+}
