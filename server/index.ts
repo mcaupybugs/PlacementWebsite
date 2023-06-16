@@ -1,6 +1,6 @@
 import express from "express";
 import placementExperienceRouter from './apiRoutes/PlacementExperienceRoute'
-
+import db from './configs/databaseInit';
 
 const app: any = express();
 app.use("/experience", placementExperienceRouter);
