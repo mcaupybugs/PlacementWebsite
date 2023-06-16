@@ -1,5 +1,5 @@
 import express from "express";
-import placementExperienceRouter from './apiRoutes/placementExperienceRoute'
+import placementExperienceRouter from './apiRoutes/PlacementExperienceRoute'
 
 
 const app: any = express();

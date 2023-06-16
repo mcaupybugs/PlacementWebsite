@@ -16,5 +16,11 @@ export default {
         "@typescript-eslint"
     ],
     "rules": {
-    }
+    },
+    "unicorn/filename-case": [
+        "error",
+        {
+            "case": "pascalCase"
+        }
+    ]
 }
