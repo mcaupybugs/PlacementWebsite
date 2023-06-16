@@ -14,7 +14,7 @@ db.serialize(() => {
         if (err) {
             throw err;
         }
-        console.log("Created the table with the result", result);
+        console.log("Created the table");
     })
 })
 
